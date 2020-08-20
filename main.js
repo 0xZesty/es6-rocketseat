@@ -1,16 +1,8 @@
-class TodoList {
-    constructor() {
-        this.todos = []
-    }
-
-    addTodo() {
-        this.todos.push('Novo Todo')
-        console.log(this.todos)
+class Matematica {
+    static soma(a, b) {
+        return a + b
     }
 }
 
-const MinhaLista = new TodoList()
 
-document.getElementById('novotodo').onclick = function() {
-    MinhaLista.addTodo()
-}
+console.log(Matematica.soma(1, 2))
