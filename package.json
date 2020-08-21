@@ -10,6 +10,6 @@
     "@babel/preset-env": "^7.11.0"
   },
   "scripts": {
-    "dev": "babel ./exercicios/modulo01/exer1.js -o ./bundle.js -w"
+    "dev": "babel ./exercicios/modulo01/exer5.js -o ./bundle.js -w"
   }
 }

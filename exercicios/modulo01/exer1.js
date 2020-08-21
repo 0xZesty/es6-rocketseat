@@ -8,14 +8,12 @@ class Usuario {
     }
 }
 
-class Admin extends Usuario {   
+class Admin extends Usuario {
     constructor() {
         super()
         this.admin = true
     }
 }
-
-
 
 
 const User1 = new Usuario('email@teste.com', 'senha123');
